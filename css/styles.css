@@ -1,0 +1,161 @@
+#title{
+  background-color: #ff4c66;
+
+
+}
+body{
+  font-family: 'Montserrat-Black',sans-serif;
+}
+h1{
+  font-family: 'Montserrat-Black',sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+
+}
+.iphone{
+  margin: auto auto -11rem 50px;
+  max-width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+
+
+}
+#features{
+  padding: 6% 15% 5% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.nav-item{
+  padding: 0 15px 0 15px;
+  font-size: 1.2rem;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.title-img{
+  margin: 20px 5px 0 5px;
+}
+
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.top2{
+  font-family: 'Montserrat-Bold';
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.pp{
+  text-align: center;
+  color: #8f8f8f;
+  padding: 5%;
+}
+.roww-img{
+  font-size: 70px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5%;
+  color: #ef8172;
+}
+.roww-img:hover{
+  color:#ff4c66;
+}
+
+/*testimonialsection*/
+#testimonials{
+
+  text-align: center;
+  color: #fff;
+  background-color: #ff4c66;
+}
+.testimonial-text{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 800;
+  margin-bottom: 5%;
+}
+.testi-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/*press*/
+#press{
+  background-color: #ff4c66;
+  text-align: center;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/*pricing*/
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.price{
+  padding: 3% 2%;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat-Bold";
+}
+
+/*media*/
+@media (max-width:1028px){
+
+#title{
+  text-align: center;
+  margin: auto;
+}
+  .iphone{
+    position: static;
+    transform:rotate(0);
+    margin: 20px 0 0;
+    max-width: 40%;
+  }
+}
+@media (min-width:520px) {
+  .iphone{
+    max-width: 70%;
+  }
+}
+.last{
+  padding: 7% 15%;
+  background-color: #ff4c66;
+  text-align: center;
+}
+
+.social{
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.imm{
+    padding: 0 5px;
+}
+.finn{
+  margin: 10px 0 0;
+}
